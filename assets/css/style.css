@@ -16,6 +16,7 @@ padding: 10px;
   justify-content: center;
 color:gold;
 font-weight: bolder;
+
 }
 
 .box {
@@ -34,4 +35,8 @@ button{
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     font-weight: bold;
+}
+
+input{
+    cursor: pointer;
 }
