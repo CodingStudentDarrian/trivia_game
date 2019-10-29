@@ -13,7 +13,7 @@ let choiceD = 0
 let correct = 0
 let timer;
 let minutes = 1;
-let seconds = 90;
+let seconds = 60;
 
 
 let qNA = [
@@ -101,7 +101,7 @@ function counter() {
 function displayCounter() {
     if (parseInt(seconds) > 0) {
         seconds = parseInt(seconds) - 1;
-        document.getElementById("displayCounter").innerHTML = "Your Left Time is :" + seconds + " Seconds";
+        document.getElementById("displayCounter").innerHTML = "Time Remaining  :" + seconds + " Seconds";
         timer = setTimeout("displayCounter()", 1000);
     } else {
         if (parseInt(seconds) == 0) {

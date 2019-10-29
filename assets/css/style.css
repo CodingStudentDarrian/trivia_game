@@ -40,3 +40,7 @@ button{
 input{
     cursor: pointer;
 }
+
+body{
+    background-color:black;
+}
